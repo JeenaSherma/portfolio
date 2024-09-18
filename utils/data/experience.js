@@ -1,20 +1,20 @@
 export const experiences = [
   {
     id: 1,
-    title: "React Developer",
+    title: "DotNet Developer",
     company: "Silicon Soft and IT Consultant.",
-    duration: "(June 2023 - Present)",
+    duration: "(Aug 2023 - Present)",
   },
   {
     id: 2,
-    title: "React Intern",
+    title: "DotNet Intern",
     company: "Silicon Soft and IT Consultant.",
-    duration: "(Feb 2023 - May 2023)",
+    duration: "(May 2023 - Aug 2023)",
   },
   {
     id: 2,
-    title: "React Learner",
+    title: "DotNet Learner",
     company: "Self learning",
-    duration: "(Feb 2020 - Present)",
+    duration: "(2020 - Present)",
   },
 ];

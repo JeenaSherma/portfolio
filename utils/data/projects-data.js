@@ -5,66 +5,51 @@ import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
   {
-    id: 1,
-    name: "Weather App",
-    description:
-      "Your go-to weather app for real-time updates on your current location and worldwide forecasts. Features include automatic location detection, location search, and a five-day forecast. Stay prepared with WeatherNow.",
-    tools: ["React", "Tailwind css", "Material UI", "Open Weather Api"],
-    role: "React Intern",
-    code: "",
-    demo: "",
-    image: crefin,
+    "id": 1,
+    "name": "Recipe App",
+    "description": "A simple and efficient app that allows users to add, edit, and delete their favorite recipes. Manage your personal recipe collection with ease. Built for quick and intuitive use.",
+    "tools": ["DotNet MVC", "SQL Server", "Entity Framework"],
+    "role": "Dotnet Intern",
+    "code": "",
+    "demo": "",
+    "image": crefin
   },
+  
   {
-    id: 2,
-    name: "Silicon ERP",
-    description:
-      "ReactERP is your all-in-one solution for efficient business management. Built with React, this ERP system streamlines your operations and boosts productivity. With modules for inventory management, sales, HR, and more, ReactERP empowers your team to work smarter, not harder.",
-    tools: ["React ", "Tailwind CSS", "React Query", "Formik", "Material UI"],
-    role: "React Developer",
-    code: "",
-    demo: "",
-    image: travel,
+    "id": 2,
+    "name": "Complain App",
+    "description": "An efficient app for managing user complaints. It allows users to submit, track, and resolve complaints seamlessly. The app features role-based authentication, enabling secure user management, and provides admins with tools to address and resolve issues effectively.",
+    "tools": ["DotNet API", "SQL Server", "Entity Framework", "JWT", "Identity"],
+    "role": "DotNet Developer",
+    "code": "",
+    "demo": "",
+    "image": travel
   },
+  
   {
     id: 3,
-    name: "Law App",
+    name: "Sifaris App",
     description:
-      "Rajpatra is a state-of-the-art legal app tailored specifically for government entities, designed to streamline legal procedures and bolster governance efficacy. Harnessing the power of React technology, Rajpatra redefines how governments handle legal affairs, ensuring adherence to laws, fostering transparency, and promoting accountability.",
-    tools: [
-      "React",
-      "Bootstrap",
-      "React-Bootstrap",
-      "Formik",
-      "Redux",
-      "JWT",
-      "React-Paginate",
-    ],
+      "Sifaris is a app for government tailored specifically for government entities, designed to streamline legal procedures and bolster governance efficacy",
+    tools:  ["Dot Net Api","Sql Server", "EntityFramework","JWT","Identity"],
     code: "",
-    role: "React Developer",
+    role: "DotNet Developer",
     demo: "",
     image: realEstate,
   },
   {
-    id: 4,
-    name: "Real State Management",
-    description:
-      "My team and I developed a Real State management dashboard application called Ghaderi Freema. As a front-end developer, I worked on creating the dashboard using React JS, Shad Cn, Redux, Calendar, and other. We used React Redux to manage the application's state and React-hook-form to handle forms.",
-    tools: [
-      "React JS",
-      "Shad CN",
-      "Redux",
-      "Tailwind Css",
-      "React hook form",
-      "Yup",
-    ],
-    code: "",
-    demo: "",
-    image: ayla,
-    role: "React Developer",
-  },
-];
-
+    "id": 4,
+    "name": "Real Estate Management",
+    "description": 
+      "My team and I developed a Real Estate management dashboard application called Ghaderi Freema. As a back-end developer, I was responsible for designing and implementing the server-side logic using .NET Core API, managing the database with SQL Server and Entity Framework, and securing the API with JWT authentication. The front end was built with React, but my focus was on creating scalable APIs, optimizing database queries, and ensuring smooth integration between the front and back end.",
+    "tools": ["Dot Net Core API", "SQL Server", "Entity Framework", "JWT"],
+    "code": "",
+    "demo": "",
+    "image": "ayla",
+    "role": "Back-end Developer"
+  }
+  
+]
 // Do not remove any property.
 // Leave it blank instead as shown below
 

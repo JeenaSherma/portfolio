@@ -2,15 +2,15 @@ export const skillsData = [
   "HTML",
   "CSS",
   "Javascript",
-  "Typescript",
+  "c#",
+  "DotNet",
+  "SqlServer",
   "React",
   "Tailwind",
-  "MongoDB",
   "Git",
   "AWS",
   "Bootstrap",
   "Docker",
-  "MaterialUI",
   "Nginx",
 ];
 
@@ -99,3 +99,9 @@ export const skillsData = [
   Webex
   Wordpress
 */
+
+
+
+
+//dotnet
+//ms sql

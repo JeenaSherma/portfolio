@@ -72,6 +72,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import dotnet from '/public/svg/skills/dotnet.svg';
+import sqlserver from '/public/svg/skills/sqlserver.svg';
 
 
 export const skillsImage = (skill) => {
@@ -93,6 +95,10 @@ export const skillsImage = (skill) => {
       return afterEffects;
     case 'css':
       return css;
+    case 'dotnet':
+      return dotnet; 
+    case 'sqlserver':
+      return sqlserver;
     case 'angular':
       return angular;
     case 'javascript':
